@@ -7,7 +7,6 @@
 </head>
 <body>
     <h1>NumPy Tutorial 🐍</h1>
-
     <p>Welcome to the NumPy Tutorial! This repository is designed to help you understand the fundamentals of NumPy, a powerful library for numerical computing in Python. Whether you're a beginner or looking to refresh your skills, this tutorial covers essential topics to get you started.</p>
 
     <h2>Table of Contents 📚</h2>
@@ -41,8 +40,7 @@
 # Convert a list to a NumPy array
 list_data = [1, 2, 3, 4, 5]
 array_from_list = np.array(list_data)
-print(array_from_list)
-    </code></pre>
+print(array_from_list)</code></pre>
 
     <h3 id="2-intrinsic-numpy-array-creation-methods">2. Intrinsic NumPy Array Creation Methods</h3>
     <p>NumPy provides several intrinsic methods to create arrays directly:</p>
@@ -55,22 +53,19 @@ print(array_from_list)
     <p>Example:</p>
     <pre><code># Create an array of zeros
 zeros_array = np.zeros((2, 3))
-print(zeros_array)
-    </code></pre>
+print(zeros_array)</code></pre>
 
     <h2 id="understanding-array-properties">Understanding Array Properties</h2>
 
     <h3 id="shape">Shape</h3>
     <p>The shape of a NumPy array represents the dimensions of the array. You can access the shape attribute using:</p>
     <pre><code>array_shape = array_from_list.shape
-print(array_shape)
-    </code></pre>
+print(array_shape)</code></pre>
 
     <h3 id="data-type-dtype">Data Type (dtype)</h3>
     <p>NumPy arrays have a specific data type that defines the type of elements in the array. You can check the data type using:</p>
     <pre><code>array_dtype = array_from_list.dtype
-print(array_dtype)
-    </code></pre>
+print(array_dtype)</code></pre>
 
     <h2 id="numpy-axes">NumPy Axes</h2>
     <p>Understanding axes in NumPy is crucial for manipulating data. An array's axes are the dimensions along which operations can be performed. For instance, in a 2D array:</p>
@@ -82,8 +77,7 @@ print(array_dtype)
     <pre><code># Creating a 2D array
 two_d_array = np.array([[1, 2, 3], [4, 5, 6]])
 print("Array:", two_d_array)
-print("Sum along axis 0:", np.sum(two_d_array, axis=0))  # Sum of each column
-    </code></pre>
+print("Sum along axis 0:", np.sum(two_d_array, axis=0))  # Sum of each column</code></pre>
 
     <h2 id="conclusion">Conclusion</h2>
     <p>This tutorial provided an overview of essential NumPy functionalities, including array creation, properties, and axes. NumPy is a versatile library that serves as a foundation for many scientific computing tasks in Python.</p>
