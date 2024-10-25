@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>Welcome to NumPy World</h1>
+<h1>👋 Welcome to NumPy World 🌍</h1>
 
 <pre><code>import numpy as np
 myarr = np.array([[1000, 2000, 3000, 4000]], np.int64)
@@ -17,35 +17,34 @@ myarr[0, 1] = 66
 print(myarr)  # Output: array([[1000,   66, 3000, 4000]])
 </code></pre>
 
-<h2>Array Creation Methods</h2>
+<h2>🛠️ Array Creation Methods</h2>
 <ol>
-    <li><strong>Conversion from other Python structures:</strong>
+    <li><strong>🔄 Conversion from other Python structures:</strong>
         <pre><code>listarray = np.array([[1, 2, 3], [5, 8, 5], [0, 3, 1]])
 print(listarray)  # Output: array([[1, 2, 3], [5, 8, 5], [0, 3, 1]])
 </code></pre>
     </li>
-    <li><strong>Intrinsic NumPy array creation objects:</strong>
+    <li><strong>✨ Intrinsic NumPy array creation objects:</strong>
         <pre><code>zeros = np.zeros((2, 5))
 print(zeros)  # Output: array([[0., 0., 0., 0., 0.], [0., 0., 0., 0., 0.]])
 </code></pre>
     </li>
 </ol>
 
-<h2>Basic Operations</h2>
+<h2>➕ Basic Operations</h2>
 <pre><code>ar = np.array([[1, 2, 3], [4, 5, 6], [7, 1, 0]])
 print(ar.sum(axis=0))  # Output: array([12,  8,  9])
 print(ar.sum(axis=1))  # Output: array([ 6, 15,  8])
 </code></pre>
 
-<h2>Numpy Axis</h2>
+<h2>🔍 Numpy Axis</h2>
 <pre><code>ar = np.array([[1, 2, 3], [4, 5, 6], [7, 1, 0]])
 print(ar.argmax(axis=0))  # Output: array([2, 1, 1])
 print(ar.argsort(axis=1))  # Output: array([[0, 1, 2], [0, 1, 2], [2, 1, 0]])
 </code></pre>
 
-<h2>Conclusion</h2>
-<p>This README provides an overview of some basic functionalities of the NumPy library in Python. Explore the power of NumPy for numerical computing!</p>
+<h2>✅ Conclusion</h2>
+<p>This README provides an overview of some basic functionalities of the NumPy library in Python. Explore the power of NumPy for numerical computing! 🚀</p>
 
 </body>
 </html>
-
